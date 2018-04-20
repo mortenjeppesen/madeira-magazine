@@ -1,0 +1,373 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    background: #f0decb;
+    margin: 0;
+}
+
+
+.forside-elementer {
+    height: 100px;
+}
+
+
+.center-forside {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.hero-image-cr7 {
+
+    background-image: url("../images/cr7-outside.jpg");
+    height: 61%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.hero-image-why-madeira {
+
+    background-image: url("../images/why-madeira-main.jpg");
+    height: 61%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.hero-image-levada {
+
+    background-image: url("../images/levada-main.jpg");
+    height: 61%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text-why-madeira {
+
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.general-madeira {
+    margin: 0 auto;
+    max-width: 40em;
+    line-height: 1.35;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+
+span {
+    color: #73021b;
+    font-style: italic;
+}
+
+
+header {
+    text-align: center;
+}
+
+.site-header {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.94;
+    letter-spacing: .8px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #73021b;
+
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+.hero-image {
+    background-image: url("../images/main-frontpage.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+
+.hero-text p {
+    font-size: 30px;
+}
+
+
+.seneste {
+    text-transform: uppercase;
+    text-align: center;
+    color: #73021b;
+
+}
+
+
+.wrap {
+    height: 100%;
+
+}
+
+
+.right {
+    position: relative;
+    width: 70%;
+    height: 100%;
+
+}
+
+.right article {
+    padding: 5%;
+}
+
+.right article h2 {
+    margin-bottom: 0px;
+}
+
+.right article .date {
+    text-transform: uppercase;
+    font-size: 60%;
+    padding-bottom: 0px;
+}
+
+.right article span {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.right article p {
+    padding: 0px 0 0px 0;
+}
+
+.right article img {
+    padding: 0px;
+}
+
+.right .tags {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60%;
+}
+
+.right .tags li {
+    background-color: tomato;
+    text-align: justify;
+    display: inline-block;
+    list-style: none;
+    margin: 5px 5px 0 0;
+    padding: 5px;
+    box-shadow: 1px 1px 1px #ad1a00;
+}
+
+.right .tags li:hover {
+    background-color: #555;
+    box-shadow: 1px 1px 1px #090909;
+    cursor: default;
+}
+
+
+.float-right {
+    float: right;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin-top: -70px;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #73021b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ad1a00;
+    border-bottom: 1px #ad1a00;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #ddd;
+    color: #ddd;
+    text-align: center;
+}
+
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ffffff;
+}
+
+
+.frontpage-articles {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+
+}
+
+
+.frontpage-articles img {
+    width: 50%;
+
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.et-billede-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.et-billede-grid-container > div {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+footer {
+    color: #73021b;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 70%;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .left {
+        float: none;
+        position: relative !important;
+        width: 100%;
+        min-height: 150px;
+    }
+
+    .right {
+        float: none;
+        position: relative !important;
+        width: 100%;
+        font-size: 95%;
+    }
+
+    .forside-elementer {
+        margin-left: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .right h2 {
+        font-size: 100%;
+    }
+    .right article p {
+        font-size: 85%;
+    }
+
+
+    .float-right {
+        width: 40%;
+        margin-top: -55px;
+
+    }
+
+    .general-madeira p,
+    h3 {
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+
+    .forside-elementer {
+        margin-left: 0;
+
+    }
+
+    .center-forside {
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+}
